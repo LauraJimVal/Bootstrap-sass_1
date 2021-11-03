@@ -23,6 +23,10 @@ img {
   #figura2 {
     margin-top: -12em;
   }
+
+  .nav-link {
+    color: #fff !important;
+  }
 }
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -4744,7 +4748,7 @@ textarea.form-control-lg {
   border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url(/images/icon-hamburger.svg);
+  background-image: url(../images/icon-hamburger.svg);
 }
 .navbar-light .navbar-text {
   color: rgba(0, 0, 0, 0.55);
