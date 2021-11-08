@@ -16,7 +16,7 @@ $accordion-icon-color: $primary; // cambio de color del icono del accordion
 
 $spacer: 1rem;
 $spacers: (
-  0: 0,
+  0: $spacer * 0,
   1: $spacer * .25,
   2: $spacer * .5,
   3: $spacer,
@@ -86,6 +86,7 @@ $utilities: (
   ),
 );
 
+
 // scss 
 
 img{
@@ -95,16 +96,21 @@ img{
 .border-top{
   border-top: hidden;
 }
+
 // figura azul 2
 #figura2{
   margin-top: -15em;
+}
+
+.navbar-collapse{
+  width: 100%;
 }
 
 
 // Tablet y mobile
 @media(max-width: 991px){
   //color de fondo del navbar
-  #toggleMobileMenu{
+  #navbarNav{
     background: rgba(24, 17, 61, 0.779);
   }
 
@@ -121,6 +127,7 @@ img{
     color: #fff !important;
  }
 }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
