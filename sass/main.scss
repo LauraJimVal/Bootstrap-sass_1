@@ -8,7 +8,7 @@ $color_blanco: #fff;
 $primary: $color_principal; // modificación del color primario de Bootstrap
 $secondary: $color_secundari; // modificación del color secundario de Bootstrap
 
-$navbar-light-toggler-icon-bg: url(./images/icon-hamburger.svg); // modificación del icono hamburguesa
+$navbar-light-toggler-icon-bg: url(../images/icon-hamburger.svg); // modificación del icono hamburguesa
 $border-width: 0; // quitando el borde del botón hamburguesa
 $accordion-icon-color: $primary; // cambio de color del icono del accordion
 
